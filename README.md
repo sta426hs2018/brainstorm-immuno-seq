@@ -2,9 +2,6 @@
 title: "Immunological Sequencing (Immuno-Seq)"
 author: "Mark James Thompson (github = Amuraivel)"
 date: '2018-10-07'
-output:
-  pdf_document: default
-  html_document: default
 ---
 # Introduction 
 T-cells have receptor (TCR) proteins that recognize antigens. These exhibit significant diversity within and across subjects subjects. TCR alpha-chain and beta-chain each have complementarity determining regions (CDRs). These regions are highly variable hence characterizing the T cell activity requires an understanding of the underlying statistical distribution of the T-cell and the their CDRs.
