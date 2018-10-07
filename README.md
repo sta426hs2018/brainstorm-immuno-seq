@@ -1,31 +1,28 @@
 ---
-title: "Untitled"
+title: "Immunological Sequencing (Immuno-Seq)"
 author: "Mark James Thompson"
-date: "10/7/2018"
+date: "2018-10-07"
 output: html_document
 ---
+# Introduction 
+T-cells themselves have receptors protein (TCR) that recognize antigens. These exhibit diversity within subjects. TCR alpha-chain and beta-chain each have complementarity determining regions (CDRs). These regions are highly variable even within the subjects.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Technologies
+It follows that there is lots of variability in the proteins mirror diversity in the underlying DNA sequences. Previous technoologies use flow cytometry and spectratype data, and a divergence metric that quantifies the deviation from normal of T-cell receptor repertoire (Stanca M CiupeEmail author, Blythe H Devlin, Mary Louise Markert and Thomas B Kepler 2013). 
 
-## R Markdown
+Immuno-Seq 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+ permit simultaneous sequencing from genomic DNA of the rearranged TCR􏰀 CDR3 regions carried in millions of T cells.
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+We adapted the Illumina GA system to permit simultaneous sequencing from genomic DNA of the rearranged TCR􏰀 CDR3 regions carried in millions of T cells. This approach enables direct sequencing of a significant fraction of the uniquely rearranged TCR􏰀 CDR3 regions in populations of 􏰁􏰀 T cells whose diversity far exceeds the capabilities of conventional capillary-based DNA sequencing instruments, and also permits estimation of the relative frequency of each CDR3 sequence in the population.
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-# brainstorm-immuno-seq
+# Statistics
+
+
+
+# Since not all the variations are observed in the target population in any given sample, statistical techniques are needed to infer the diversity itself within a given patient, and then variability across patients.Application 
+The applications will 
